@@ -11,8 +11,14 @@ class Anagram
   end
 
   def match(array)
-    if @@all.sort == array.sort
-
+    array.each do |word|
+    if @@all.sort == word.sort
+      return word
+    else
+      return " "
+    end
+  end
+    
   end
 
 
