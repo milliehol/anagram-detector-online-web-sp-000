@@ -7,11 +7,12 @@ class Anagram
 
   def initialize(word)
    @word = word
-
+  @@all << word.split(" ")
   end
 
   def match(word)
 @@all = word.split(" ")
+
   end
 
 
