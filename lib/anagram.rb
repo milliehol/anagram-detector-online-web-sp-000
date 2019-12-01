@@ -18,7 +18,7 @@ class Anagram
       return " "
     end
   end
-    
+
   end
 
 
