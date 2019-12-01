@@ -11,7 +11,7 @@ class Anagram
   end
 
   def match(word)
-
+@@all = word.split(" ")
   end
 
 
