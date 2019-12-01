@@ -11,7 +11,7 @@ class Anagram
   end
 
   def match(array)
-
+    if @@all.sort == array.sort
 
   end
 
