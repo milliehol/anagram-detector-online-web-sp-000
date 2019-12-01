@@ -10,8 +10,8 @@ class Anagram
   @@all << word.split(" ")
   end
 
-  def match(word)
-@@all = word.split(" ")
+  def match(array)
+
 
   end
 
