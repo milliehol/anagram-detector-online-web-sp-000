@@ -7,7 +7,7 @@ class Anagram
 
   def initialize(word)
    @word = word
-  @@all << word.split(" ")
+  @@all << @word.split(" ")
   end
 
   def match(array)
